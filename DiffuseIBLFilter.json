@@ -1,0 +1,17 @@
+{
+    "postEffect":
+    {
+        "subpasses":
+        [
+            {
+                "shader":
+                {
+                    "float32":
+                    {
+                        "fragment": "DiffuseIBLFilter.frag.spv"
+                    }
+                }
+            }
+        ]
+    }
+}
